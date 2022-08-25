@@ -7,8 +7,9 @@
 .container{
     width: 99.7%;
     border: 2px solid blue;
+    height: 500px;
 }
-.content{
+.content {
     margin-left: 5%;
 }
 .heading1{
@@ -26,14 +27,4 @@
     -webkit-user-select: none; 
     user-select: none; 
 }
-.heading2{
-    font-size: 45px;
-}
-#list1 {
-    margin-left: 5%;
-    font-size: 20px;
-    display: none;
-}
-#list1 ul li{
-    margin-left: 5%;
-}
+
