@@ -1,3 +1,4 @@
+// TASK 1 (START)
 // call aurthors name using javascript fetch
 document.getElementById('button1').addEventListener('click',loadTxt);
 function loadTxt(){
@@ -24,3 +25,6 @@ function toggle(){
         return;
     }
 }
+// TASK 1 (END)
+
+// TASK 2(START)
