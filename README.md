@@ -1,2 +1,2 @@
 # WEEK 2
-# Quotes-App In Tasks
+# Quotes-App In Seprate Tasks
