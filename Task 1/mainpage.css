@@ -7,7 +7,7 @@
 .container{
     width: 99.7%;
     border: 2px solid blue;
-    height: 500px;
+    height: fit-content;
 }
 .content {
     margin-left: 5%;
@@ -16,15 +16,12 @@
     font-size: 50px;
     color: blue;
 }   
-.links a{
+.links button{
     text-decoration: none;
     background-color: lightblue;
     border: none;
     margin: 20px;
-    width: 10%;
-    padding: 20px;  
-    border-radius: 10px;
-    -webkit-user-select: none; 
-    user-select: none; 
+    padding: 20px;
+    border-radius: 20px;
 }
 
