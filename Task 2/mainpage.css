@@ -4,6 +4,7 @@
     font-family: 'Nunito',sans-serif;
     color: black;
 }
+/* content 1 authors*/
 .container{
     width: 99.7%;
     border: 2px solid blue;
@@ -24,5 +25,7 @@
     padding: 20px;
     border-radius: 20px;
 }
-
-
+/* content 2 quotes */
+.container2{
+   
+}
