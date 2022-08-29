@@ -17,7 +17,15 @@
     font-size: 50px;
     color: blue;
 }   
-.links button{
+#button1 {
+    text-decoration: none;
+    background-color: lightblue;
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+#button2{
     text-decoration: none;
     background-color: lightblue;
     border: none;
