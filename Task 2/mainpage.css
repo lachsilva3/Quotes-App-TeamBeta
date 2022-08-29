@@ -34,6 +34,19 @@
     border-radius: 20px;
 }
 /* content 2 quotes */
-.container2{
-   
+.container2 li{
+   border: 2px solid red;
+   padding: 20px;
+   color: blue;
+   text-decoration: none;
+   font-weight: bolder;
+   display: grid;
+   margin: 10px;
+}
+.container2 li p{
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: fit-content;
 }
