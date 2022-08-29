@@ -1,2 +1,2 @@
-Search By Author<input type=text ><button class="test">Search</button>
+Search By Author<input type=text ><button class="test">Search</button><br><br>
 <h1>Quotes</h1>
