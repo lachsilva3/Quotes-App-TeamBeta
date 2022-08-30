@@ -8,8 +8,7 @@ function loadTxt(){
     })
     .then(function(data){
         var result=document.getElementById('result')
-        result.innerHTML=`<h1>Authors</h1>`
-        result.innerHTML=`<li>${data}</li>`
+        result.innerHTML=`<h1>Authors</h1><li> ${data}</li>`
         console.log(data)
     })
     
