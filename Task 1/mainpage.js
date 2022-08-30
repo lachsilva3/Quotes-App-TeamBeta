@@ -1,5 +1,5 @@
 // TASK 1 (START)
-// call aurthors name using javascript fetch
+// call authors name using javascript fetch
 document.getElementById('button1').addEventListener('click',loadTxt);
 function loadTxt(){
     fetch('https://quote-api-app.herokuapp.com/author')
@@ -7,13 +7,18 @@ function loadTxt(){
         return data.json()
     })
     .then(function(data){
-        var result=document.getElementById('result')
-        result.innerHTML=`<h1>Authors</h1><li> ${data}</li>`
-        console.log(data)
-    })
-    
+        let html='';
+        data.forEach(function(data){
+            html += `
+                <li>
+                    ${data}
+                </li>
+            `;
+        });
+        document.getElementById('result').innerHTML=html;
+    })  
 }
-// Show or hide names
+// (Show/Hide Authors)
 var toggled =false;
 function toggle(){
     if (!toggled){
@@ -29,4 +34,3 @@ function toggle(){
 }
 // TASK 1 (END)
 
-// TASK 2(START)
