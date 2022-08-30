@@ -1,3 +1,5 @@
+
+// javscript fetch data 2
 document.getElementById('button2').addEventListener('click',loadTxt);
 function loadTxt(){
     fetch('data2.txt')
@@ -24,3 +26,7 @@ function toggle2(){
     }
 }
 // Search 
+const searchBar= document.getElementById('searchBar')
+searchBar.addEventListener('keyup',(e)=>{
+    console.log(e.target.value);
+});

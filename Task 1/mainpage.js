@@ -2,7 +2,7 @@
 // call aurthors name using javascript fetch
 document.getElementById('button1').addEventListener('click',loadTxt);
 function loadTxt(){
-    fetch('data.txt')
+    fetch('https://quote-api-app.herokuapp.com/author')
     .then(function(response){
         return response.text();
     })

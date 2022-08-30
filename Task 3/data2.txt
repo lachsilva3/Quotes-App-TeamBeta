@@ -1,11 +1,12 @@
-Search By Author<input type=text ><button class="test">Search</button><br><br>
 <h1>Quotes</h1>
-<ul>
+Search By Author<input  id="searchBar"  type="search" data-search ><button class="test">Search</button><br><br>
+
 <div class="container2">
+<ul>
 <li>There are only two kinds of  languages the ones people complain about and the ones nobody uses.<br><br><p>Bjarne Stroustrup</p> </li>
 <li>Any fool can write a code that a computer can understand. Good programmers write code that human can understand.<br><br><p>Martin Fowler</p></li>
 <li>First solve the problem then write the code.<br><br><p>John Johnson</p></li>
 <li>Java is to JavaScript what car is to carpet.<br><br><p>Chris Heilmann</p></li>
 <li>Always code as if the guy who ends up maintaining your code will be violent psychopath who knows where you live.<br><br><p>John Woods</p></li>
-</div>
 </ul>
+</div>
