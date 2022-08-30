@@ -3,13 +3,16 @@
 document.getElementById('button1').addEventListener('click',loadTxt);
 function loadTxt(){
     fetch('https://quote-api-app.herokuapp.com/author')
-    .then(function(response){
-        return response.text();
+    .then(function(data){
+        return data.json()
     })
     .then(function(data){
-        console.log(data);
-        document.getElementById('result').innerHTML=data;
+        var result=document.getElementById('result')
+        result.innerHTML=`<h1>Authors</h1>`
+        result.innerHTML=`<li>${data}</li>`
+        console.log(data)
     })
+    
 }
 // Show or hide names
 var toggled =false;
