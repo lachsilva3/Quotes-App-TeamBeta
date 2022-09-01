@@ -9,6 +9,7 @@ function forauthor() {
       let lis = "";
       o.map((value) => {
         lis += ` 
+        <hr>
             <li>${value}</li>
          `;
       });
