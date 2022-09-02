@@ -69,7 +69,3 @@ function search_button() {
       });
   }
 
-  function myFunction() {
-    document.getElementById("names").innerHTML = "YOU CLICKED ME!";
-    
-  }
