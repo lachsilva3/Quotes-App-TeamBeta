@@ -28,7 +28,7 @@ function btnfunction() {
         list += `   
                   <hr>
             <h5>"${values.quote}"</h5>
-            <p><b >&nbsp~${values.author}</b></p>
+            <p><b >&nbsp${values.author}</b></p>
             <li>Likes:&nbsp${values.likes}</li>
             <li>Dislikes:&nbsp${values.dislikes}</li>
               <br>  <br>     
