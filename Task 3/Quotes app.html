@@ -26,42 +26,26 @@
     <script src="Quote app.js"></script>
     <script src="jquery_.js"></script>
     <!---->
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Sofia"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/>
   </head>
   <body>
     <div class="container-fluid main">
       <h1>Software Quotes</h1>
       <div class="forbtn">
         <div class="btn-group tabs">
-          <button
-            id="bb"
-            class="btn btn-default"
-            class="focus"
-            onclick="btnfunction()"
-          >
-            Quotes
-          </button>
-      
-          <button
-            id="bb2"
-            class="btn btn-default"
-            class="focus"
-            onclick="forauthor()"
-            active
-          >
-            Authors
-          </button>
+          <button id="bb" class="btn btn-default" class="focus" onclick="btnfunction()">Quotes</button>
+          <button id="bb2" class="btn btn-default" class="focus" onclick="forauthor()" active>Authors</button>
         </div>
       </div>
-      <br /><br />
+      <br><br>
       <div class="row">
-        
-        <div  class="col maincol" id="names"></div>
         <div class="col maincol2" id="name"></div>
+        <div  class="col maincol">
+          <p class="search">Search By Authors</p>
+          <input type="text">
+          <div id="names">
+          </div>
+        </div>
       </div>
     </div>
   </body>

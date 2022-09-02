@@ -5,7 +5,6 @@ function forauthor() {
       return dat.json();
     })
     .then((o) => {
-      console.log(o[0]);
       let lis = "";
       o.map((value) => {
         lis += ` 
@@ -24,7 +23,6 @@ function btnfunction() {
       return data.json(); 
     })
     .then((ok) => {
-      console.log(ok[0]);
       let list = "";
       ok.map((values) => {
         list += `   

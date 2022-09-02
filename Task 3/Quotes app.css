@@ -78,3 +78,8 @@ button {
 .tabs button:focus {
   background-color: #bcc6cc;
 }
+.search{
+  color: red;
+  font-size:20px ;
+  font-weight: bolder;
+}

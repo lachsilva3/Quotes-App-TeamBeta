@@ -1,11 +1,9 @@
 function forauthor() {
   fetch("https://quote-api-app.herokuapp.com/author")
     .then((dat) => {
-      //console.log(data);
-      return dat.json(); //converted to object
+      return dat.json(); 
     })
     .then((o) => {
-      console.log(o[0]);
       let lis = "";
       o.map((value) => {
         lis += ` 
