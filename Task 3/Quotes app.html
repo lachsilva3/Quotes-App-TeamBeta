@@ -23,7 +23,7 @@
     <!---->
     <!--JavaScript files-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="Quote app.js"></script>
+   
     <script src="jquery_.js"></script>
     <!---->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/>
@@ -40,13 +40,17 @@
       <br><br>
       <div class="row">
         <div class="col maincol2" id="name"></div>
+        <!-- test -->
         <div  class="col maincol">
-          <p class="search">Search By Authors</p>
-          <input type="text">
+          <p class="search2">Search by Author</p>
+          <input id="input" data-search></input>
+          <button id="search" onclick="search_button()">Search</button>
           <div id="names">
           </div>
         </div>
+     
       </div>
     </div>
+    <script src="Quote app.js"></script>
   </body>
 </html>
