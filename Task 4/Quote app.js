@@ -10,7 +10,7 @@ function forauthor() {
       o.map((value) => {
         lis += ` 
         <hr>
-            <li>${value}</li>
+            <li><a href="#input">${value}</a></li>
          `;
       });
       document.getElementById("name").innerHTML = lis;
@@ -69,3 +69,6 @@ function search_button() {
       });
   }
 
+
+
+  // TEST
